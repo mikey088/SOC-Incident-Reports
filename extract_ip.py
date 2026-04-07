@@ -1,3 +1,14 @@
+''' Log IP Extractor
+
+This Python script extracts IP addresses from raw logs, removes duplicates, and counts frequency to assist in identifying suspicious activity such as brute-force attempts.
+
+## Features
+- Extracts IPv4 addresses
+- Counts frequency of occurrences
+- Helps identify suspicious IPs based on repeated activity
+
+## Use Case : Used during investigation of brute-force attacks to quickly identify attacker IPs.'''
+
 import re
 from collections import defaultdict
 
